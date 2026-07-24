@@ -1,0 +1,23 @@
+id = "herdr.picker"
+name = "herdr picker"
+version = "0.1.0"
+min_herdr_version = "0.7.5"
+description = "search workspaces, agents, and tabs from a popup picker."
+platforms = ["linux", "macos"]
+
+[[build]]
+command = ["go", "build", "-o", "bin/herdr-picker", "./cmd/herdr-picker"]
+
+[[actions]]
+id = "open"
+title = "open herdr picker"
+contexts = ["workspace", "tab", "pane"]
+command = ["sh", "scripts/open.sh"]
+
+[[panes]]
+id = "picker"
+title = "herdr picker"
+placement = "popup"
+width = "90%"
+height = "80%"
+command = ["./bin/herdr-picker"]
