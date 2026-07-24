@@ -1,5 +1,8 @@
 # herdr picker
 
+> [!important]
+> fully vibe coded using opencode:gpt5.6-sol
+
 herdr picker is a popup for searching workspaces, agents, and tabs. It previews the selected entity's terminal content and focuses it. Tabs that host detected agents are represented by their agent row instead of appearing twice.
 
 ## Requirements
