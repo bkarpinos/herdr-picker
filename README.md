@@ -5,6 +5,9 @@
 
 herdr picker is a popup for searching workspaces, agents, and tabs. It previews the selected entity's terminal content and focuses it. Tabs that host detected agents are represented by their agent row instead of appearing twice.
 
+<img width="800" height="432" alt="herdr-picker" src="https://github.com/user-attachments/assets/515c1b5f-11e7-4c24-9d46-3a285eb19303" />
+
+
 ## Requirements
 
 - herdr 0.7.5 or newer
